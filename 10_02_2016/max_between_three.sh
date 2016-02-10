@@ -6,7 +6,7 @@ echo "Number 2:"
 echo "Number 3:"
 	read c
 
-if [ $a -gt $b ]
+if [ $a -gt $b -a $a -gt $c ]
 then
 	let d=$a
 else
